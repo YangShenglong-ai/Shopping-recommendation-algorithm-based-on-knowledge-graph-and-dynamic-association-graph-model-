@@ -6,7 +6,7 @@ With the maturation of deep learning and big data technologies, the application 
 ## Overview of ORKDG framework
 In this section, the ORKDG algorithm is introduced, and its general framework is shown in Figure. This system consists of the following four parts. 1) Online tuning module: After prepossessing the characteristics of consumer purchasing behaviour, the database and dynamic association graph are updated. 2) Collaborative knowledge graph Neural Network: This module constructs a collaborative knowledge graph and a knowledge graph attention network in the combined model. 3) Dynamic association graph neural network: A dynamic association graph neural network is constructed in the composite model, and the message-passing mechanism and update method are introduced. 4) Prediction layer: This module fuses the user and item features obtained in the combined model. Finally, the predicted preference score was calculated according to the obtained fusion information.
 <div align="center">
-  <img width="544" height="427" alt="image" src="https://github.com/user-attachments/assets/352003d3-d53e-47a4-bdc1-0ea1e37bd0bc" />
+  <img width="544" height="427" alt="image" src="assets\ORKDG.png" />
 </div>
 
 ## 📑 Todo List
